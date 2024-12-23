@@ -3,10 +3,10 @@ name: CI/CD Pipeline
 on:
   push:
     branches:
-      - master  # Заменено на master
+      - main
   pull_request:
     branches:
-      - master  # Заменено на master
+      - main
 
 jobs:
   build:
